@@ -32,7 +32,7 @@ app.post('/create',async(req,res)=>{
 
   res.json({
     message:"Url Successfull Generated",
-    shortUrl:`http://localhost:3000/${shortname}`
+    shortUrl:`https://backend-url-2157.onrender.com/${shortname}`
   })
 })
 
